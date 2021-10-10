@@ -1,6 +1,8 @@
 # ChatApp-Nodejs
 O objetivo desse projeto é aprofundar conhecimentos em WebSocket usando backend com Node.js e frontend com React...
 
+![2021-10-10 14-23-25](https://user-images.githubusercontent.com/71266824/136707171-bfc45d3d-63df-4337-9d81-f2bbb1436d95.gif)
+
 Tecnologias ⭐ :
 - React
 - Node
