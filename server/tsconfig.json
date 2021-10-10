@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "baseUrl": ".",
+    "outDir": "./build",
+    "module": "commonjs",
+    "typeRoots": ["./node_modules/@types", "./src/@types", "./@types"],
+    "types": ["node"],
+    "noEmit": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      // "@controllers/*": ["./src/app/controllers/*"],
+      // "@middlewares/*": ["./src/app/middlewares/*"],
+      // "@entities/*": ["./src/app/entities/*"],
+      // "@config/*": ["./src/config/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@src/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  // "exclude": ["node_modules"]
+}
+ 
